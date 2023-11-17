@@ -6,6 +6,7 @@ metadata:
   name: shinhan-cicd
   namespace: shinhan
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: shinhan-cicd
